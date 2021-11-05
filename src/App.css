@@ -1,0 +1,108 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{  
+  width: 70%;    
+  margin-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padd{
+  padding:15px;
+}
+
+.search-field{
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  border-radius:10px ;  
+  outline: none;
+  text-indent: 20px;
+}
+
+.movie{  
+  padding: 5px;  
+  margin-top:30px;
+  display: flex;
+}
+
+.poster{
+  height: 500px;
+  width: 30%;  
+}
+.poster-img{
+  width: 100%;
+  height: 100%;
+}
+
+.details{  
+  margin-left: 30px;  
+  width: 70%;  
+}
+
+h1,h2,h3{
+  margin: 0px;
+}
+
+.ratings{
+  display: flex;  
+}
+
+.ratings > div{
+  margin-right: 20px;    
+}
+
+/* .ratings-count{
+  margin-top: 2px;
+} */
+
+.input-group{
+  display: flex;
+  margin-top: 10px;  
+  justify-content: space-between;
+}
+
+.btn{
+  width: 17%;
+  margin-left: 5px;
+  background-color: rgb(47, 123, 236);
+  color:white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;  
+  cursor: pointer;
+}
